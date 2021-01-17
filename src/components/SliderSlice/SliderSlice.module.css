@@ -1,0 +1,23 @@
+.content {
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  color: red;
+}
+
+.title_active {
+  animation: toRight 1.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes toRight {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
